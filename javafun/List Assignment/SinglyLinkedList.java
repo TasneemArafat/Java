@@ -47,24 +47,21 @@ public class SinglyLinkedList {
         }
     }
 
-    public int findInt(int Value) {
-        if(head == null) {
-            System.out.println("No items in the list!");
-            return 0;
-        } else {
-            Node runner = head;
-            int count = 1;
-            while(runner.next != null) {
-                if(runner.value == Value){
-                    System.out.println(count);
-                    return count;
-                }
-                count ++;
-                runner = runner.next;
-            }
-            System.out.println("No such value in the list!");
-            System.out.println(count);
-            return 0;
+    public int find(int x){
+        int count = 0;
+        if (head == null){
+            System.out.println("No linked list available");
         }
+        Node runner = head;
+        while(runner.next != null) {
+            if(runner.value == x){
+                System.out.println("The number " + x +" is found, with index of " + count);
+                return  count;
+            }
+            count++;
+            runner = runner.next;
+        }
+        System.out.println("The number " + x + " is not in the list");
+        return 0;
     }
 }

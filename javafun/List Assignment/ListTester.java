@@ -10,7 +10,8 @@ public class ListTester {
         sll.add(2);
         sll.remove();
         sll.remove();
-        sll.findInt(5);
         sll.printValues();
+        sll.find(4);
+        sll.find(1);
     }
 }
