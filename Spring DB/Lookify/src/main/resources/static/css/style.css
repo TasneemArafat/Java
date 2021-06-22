@@ -1,0 +1,23 @@
+@charset "ISO-8859-1";
+
+.container{
+	margin: 20px 0px;
+	text-align:center;
+}
+
+main h1{
+	font-size:400%;
+}
+
+main a{
+	font-size:200%;
+}
+
+.container header {
+	display:flex;
+	justify-content:space-around;
+}
+
+.container header a{
+	margin:10px;
+}
