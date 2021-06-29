@@ -1,0 +1,42 @@
+@charset "ISO-8859-1";
+
+.container{
+	margin:40px 20px;
+}
+
+.container .regLog {
+	display:flex;
+	flex:1;
+	justify-content:space-between;
+}
+
+.regLog div{
+	border:1px solid black;
+	padding: 20px;
+	width:40%;
+	
+}
+
+header{
+	display:flex;
+	flex:1;
+	justify-content:space-between;
+}
+
+table{
+	text-align:center;
+}
+
+btn{
+	width:75px;
+}
+
+.show {
+	display:flex;
+	flex:1;
+	justify-content: space-between;
+}
+
+.edit{
+	margin-top: 100px;
+}
